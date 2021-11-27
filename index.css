@@ -1,0 +1,21 @@
+.root {
+  height: 100vh;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main {
+  background-color: #f8f2f281;
+  color: rgb(15, 15, 15);
+  padding: 20px;
+  border-radius: 12px;
+  width: 50%;
+}
+#generalRewards {
+  display: none;
+}
+#brandContainer {
+  display: none;
+}
