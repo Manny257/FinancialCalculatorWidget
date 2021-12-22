@@ -35,7 +35,7 @@ function onBrand(brand) {
         brandSum = sum * 1.3;
 
     const brandLabel = document.getElementById("brandLabel");
-    brandLabel.textContent = `${brand}Business Card`;
+    brandLabel.textContent = `${brand} Business Card`;
 
     const brandRewardLabel = document.getElementById("brandRewardLabel");
     brandRewardLabel.textContent = `${Math.floor(brandSum)}$`;
